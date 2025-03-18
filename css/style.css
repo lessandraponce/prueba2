@@ -1,0 +1,94 @@
+
+:root{
+    --menu-hover:#FE8F01;
+    --color-general:#898989;
+    --color-titulos:#282d33;
+    --color-iconos: #e0e0e0;
+    --color-checks:#53c3c9;
+}
+body{
+    font-size: 14px;
+}
+header{
+    background-color: #FFF;
+    padding: 5px 0;
+    border-bottom:1px solid #eee;
+    margin-bottom:10px;
+}
+footer{
+    background-color: #333333;
+    color: #bababa;
+    padding: 15px 0;
+    text-align: center;
+}
+.titulopadding {
+padding: 24px;
+}
+.imagenpadding{
+    padding: 64px;
+}
+.textogris{
+    color: #898989;
+}
+.tamanioicono{
+    font-size: 100px;
+    color: #e0e0e0;
+    padding: 16px;
+}
+.Flechita{
+    font-size: 50px;
+    color: #53c3c9;
+    padding: 16px;
+}
+#servicios{
+    padding: 120px 0px ;
+    background-color: #f9f9f9;
+}
+
+#cta{
+    background: url(../img/using-touchscreen.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  color: white;
+}
+.grande{
+    font-size: 96px;
+
+}
+.pequeni{
+font-size: 24px;
+padding: 20px 0px;
+}
+.btn{
+    border-radius: 24px;
+    padding: 12px 24px;
+}
+.brands-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    padding: 70px ;
+  }
+  .float-column-center {
+    width: 20%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .float-column-center img {
+    max-width: 80%;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  .float-column-center img:hover {
+    opacity: 1;
+  }
+  .brands-section .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
